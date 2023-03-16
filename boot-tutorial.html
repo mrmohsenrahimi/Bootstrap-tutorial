@@ -1,0 +1,820 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap-tutorial</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<!--    <div class="container text-center">-->
+<!--        <div class="row bg-primary text-white">-->
+<!--            <div class="col">-->
+<!--                column1-->
+<!--            </div>-->
+<!--            <div class="col bg-info">-->
+<!--                column2-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                column3-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--&lt;!&ndash;        another row&ndash;&gt;-->
+
+<!--        <div class="row bg-danger text-white">-->
+<!--            <div class="col col-md-9 bg-warning">-->
+<!--                column1-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                column2-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                column3-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="container text-center text-white">-->
+<!--        <div class="row bg-success">-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                1 of 6-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                2 of 6-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                3 of 6-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                4 of 6-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                5 of 6-->
+<!--            </div>-->
+<!--            <div class="col-12 col-sm-4 col-md-2">-->
+<!--                6 of 6-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container text-center">-->
+<!--        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-6 bg-success text-white align-items-end" style="height: 40vh">-->
+<!--            <div class="col bg-secondary align-self-center">-->
+<!--                1 of 6-->
+<!--            </div>-->
+<!--            <div class="col bg-secondary">-->
+<!--                2 of 6-->
+<!--            </div>-->
+<!--            <div class="col bg-secondary">-->
+<!--                3 of 6-->
+<!--            </div>-->
+<!--            <div class="col bg-secondary">-->
+<!--                4 of 6-->
+<!--            </div>-->
+<!--            <div class="col bg-secondary">-->
+<!--                5 of 6-->
+<!--            </div>-->
+<!--            <div class="col bg-secondary">-->
+<!--                6 of 6-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container text-center">-->
+<!--        <div class="row bg-success text-white justify-content-between">-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                1 of 6-->
+<!--            </div>-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                2 of 6-->
+<!--            </div>-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                3 of 6-->
+<!--            </div>-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                4 of 6-->
+<!--            </div>-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                5 of 6-->
+<!--            </div>-->
+<!--            <div class="col-1 bg-secondary">-->
+<!--                6 of 6-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container text-center">-->
+<!--        <div class="row text-white">-->
+<!--            <div class="col bg-success">-->
+<!--                col 1 of 2-->
+<!--            </div>-->
+<!--            <div class="col bg-success">-->
+<!--                col 2 of 2-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="container text-center mt-3">-->
+<!--        <div class="row rounded-3">-->
+<!--            <div class="col-4 border">-->
+<!--                غلی غلی غلی-->
+<!--            </div>-->
+<!--            <div class="col-4 border">-->
+<!--                عا عا عا-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container text-center">-->
+<!--        <div class="row g-3">-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border bg-light">Custom column padding</div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container text-center">-->
+<!--        <div class="row g-2">-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col-6">-->
+<!--                <div class="p-3 border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container">-->
+<!--        <div class="row row-cols-2 row-cols-md-5 g-3">-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col">-->
+<!--                <div class="p-3 bg-light border">-->
+<!--                    abc-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr class="text-success opacity-100">-->
+<!--    <hr class="text-danger opacity-50">-->
+<!--    <div>-->
+<!--        <p>Lorem ipsum dolor sit amet, <code>consectetur adipisicing</code> elit. Esse, officiis.</p>-->
+<!--        <p role="button">Lorem ipsum.</p>-->
+<!--        <button>aaa</button>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div>-->
+<!--        <span>Lorem ipsum dolor.</span>-->
+<!--        <span class="small">Lorem ipsum dolor.</span>-->
+<!--        <hr>-->
+<!--        <div>-->
+<!--            <figure>-->
+<!--                <blockquote class="blockquote">-->
+<!--                    <p>-->
+<!--                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque deleniti dolores expedita ipsam modi nobis perferendis tempore voluptate. Aperiam dolore dolores fugiat id necessitatibus non obcaecati quas repudiandae vero vitae!-->
+<!--                    </p>-->
+<!--                </blockquote>-->
+<!--                <figcaption class="">-->
+<!--                    man migam aaaaa-->
+<!--                </figcaption>-->
+<!--            </figure>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container">-->
+<!--        <img src="./assets/img/hair2.jpg" alt="good hair" class="img-fluid rounded-3">-->
+<!--    </div>-->
+<!--    <div class="container">-->
+<!--        <picture>-->
+<!--            <source srcset="./assets/img/hair2.jpg" type="image/png+jpg">-->
+<!--            <img src="./assets/img/hair2.jpg" alt="good hair" class="img-fluid rounded-3">-->
+<!--        </picture>-->
+<!--    </div>-->
+<!--    <div class="container">-->
+<!--        <table class="table table-hover table-responsive">-->
+<!--            <thead>-->
+<!--                <tr class="table-primary">-->
+<!--                    <th scope="col">name</th>-->
+<!--                    <th scope="col">family</th>-->
+<!--                    <th scope="col">age</th>-->
+<!--                    <th scope="col">sex</th>-->
+<!--                </tr>-->
+<!--            </thead>-->
+<!--            <tbody>-->
+<!--                <tr class="align-middle">-->
+<!--                    <td>ali</td>-->
+<!--                    <td>mohammadi</td>-->
+<!--                    <td>19</td>-->
+<!--                    <td>man Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facilis fugiat harum hic in ipsa nesciunt quas temporibus unde voluptates? Nam nobis optio possimus saepe soluta. Illo nulla repudiandae velit?</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>ali</td>-->
+<!--                    <td>mohammadi</td>-->
+<!--                    <td>19</td>-->
+<!--                    <td>man</td>-->
+<!--                </tr>-->
+<!--                <tr>-->
+<!--                    <td>ali</td>-->
+<!--                    <td>mohammadi</td>-->
+<!--                    <td>19</td>-->
+<!--                    <td>man</td>-->
+<!--                </tr>-->
+<!--            </tbody>-->
+<!--                <tfoot>-->
+<!--                    <tr>-->
+<!--                        <td>Ali</td>-->
+<!--                        <td>Ali</td>-->
+<!--                        <td>Ali</td>-->
+<!--                        <td>Ali</td>-->
+<!--                    </tr>-->
+<!--                </tfoot>-->
+<!--                <caption>-->
+<!--                    jahat test caption-->
+<!--                </caption>-->
+<!--        </table>-->
+<!--    </div>-->
+<!--    <hr>-->
+<!--    <div class="container">-->
+<!--        <figure class="figure">-->
+<!--            <img src="assets/img/hair2.jpg" class="img-fluid rounded-3" alt="">-->
+<!--            <figcaption class="figure-caption">-->
+<!--                women! phhh... hahahaha-->
+<!--            </figcaption>-->
+<!--        </figure>-->
+<!--    </div>-->
+    <div class="container">
+<!--         <form action="#" enctype="multipart/form-data" class=""> -->
+<!--             <fieldset class="row"> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="email" class="form-label">enter your email</label> -->
+<!--                     <input type="email" name="email" id="email" class="form-control"> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="password" class="form-label">Password</label> -->
+<!--                     <input type="password" name="password" id="password" class="form-control form-control"> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="fname" class="form-label">first neme</label> -->
+<!--                     <input type="text" name="first-name" id="fname" value="mohsen rahimi" class="form-control" readonly> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="forminp" class="form-label">upload 1 file</label> -->
+<!--                     <input type="file" name="file" id="forminp" class="form-control"> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="form-inp-multi" class="form-label">You can choose multiple file</label> -->
+<!--                     <input type="file" name="file" id="form-inp-multi" class="form-control form-control-lg"> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="color-picker" class="form-label">choose a color</label> -->
+<!--                     <input type="color" name="color" id="color-picker" class="form-control form-control-color"> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="data-list" class="form-label">Choose your continent</label> -->
+<!--                     <input class="form-control" name="data-list" id="data-list" list="data-list-options" placeholder="Like .. Asia"> -->
+<!--                     <datalist id="data-list-options"> -->
+<!--                         <option value="Asia"></option> -->
+<!--                         <option value="Europe"></option> -->
+<!--                         <option value="Africa"></option> -->
+<!--                         <option value="America"></option> -->
+<!--                     </datalist> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="select-1" class="form-label text-dark">بر پدرت درود، یه ماشین انتخاب کن</label> -->
+<!--                     <select class="form-select form-select-lg" name="select-car" id="select-1"> -->
+<!--                         <option hidden selected>choose your car</option> -->
+<!--                         <option value="پراید">پراید</option> -->
+<!--                         <option value="گاو آهن">صد رحمت به خر</option> -->
+<!--                         <option value="ماشین ندارم">ماشین ندارم</option> -->
+<!--                     </select> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <label for="select-2" class="form-label">این دفعه بر مادرت درود که تو را شیر داد. این بار، غذا انتخاب کن</label> -->
+<!--                     <select name="select-food" id="select-2" class="form-select"> -->
+<!--                         <option hidden selected>ِغذای مورد نظر را انتخاب کن لامصب</option> -->
+<!--                         <option value="Pizza">Pizza</option> -->
+<!--                         <option value="Burger">Burger</option> -->
+<!--                         <option value="I`m not Hungry">aaaa</option> -->
+<!--                     </select> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <div class="form-label"> -->
+<!--                         Choose Your SSSSS -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" class="form-check-input" name="country" value="#" id="country-1"> -->
+<!--                         <label for="country-1" class="form-check-label">Asia</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" class="form-check-input" name="country" value="#" id="country-2"> -->
+<!--                         <label for="country-2" class="form-check-label">IRAN</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" class="form-check-input" name="country" value="#" id="country-3"> -->
+<!--                         <label for="country-3" class="form-check-label">German</label> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <div class="form-label"> -->
+<!--                         Choose Your Favorite car -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="radio" class="form-check-input" name="cars" value="#" id="car-1"> -->
+<!--                         <label for="car-1" class="form-check-label">Corvet</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="radio" class="form-check-input" name="cars" value="#" id="car-2"> -->
+<!--                         <label for="car-2" class="form-check-label">Pride</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="radio" class="form-check-input" name="cars" value="#" id="car-3"> -->
+<!--                         <label for="car-3" class="form-check-label">Horse</label> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <div class="form-label"> -->
+<!--                         choose ye chizi hamintori -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline form-switch"> -->
+<!--                         <input type="checkbox" name="phone" role="switch" id="phone-1" value="POCO" class="form-check-input"> -->
+<!--                         <label for="phone-1" class="form-check-label">POCO</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline form-switch"> -->
+<!--                         <input type="checkbox" name="phone" role="switch" id="phone-2" value="SAMSUNG" class="form-check-input"> -->
+<!--                         <label for="phone-2" class="form-check-label">SAMSUNG</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline form-switch"> -->
+<!--                         <input type="checkbox" name="phone" role="switch" id="phone-3" value="IPHONE" class="form-check-input"> -->
+<!--                         <label for="phone-3" class="form-check-label">IPHONE</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline form-switch"> -->
+<!--                         <input type="checkbox" name="phone" role="switch" id="phone-4" value="REDMI" class="form-check-input"> -->
+<!--                         <label for="phone-4" class="form-check-label">REDMI</label> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <div class="form-label"> -->
+<!--                         choose ye chizi hamintori -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" name="phone" id="Brand-1" value="POCO" class="btn-check"> -->
+<!--                         <label for="Brand-1" class="btn btn-primary">POCO</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" name="phone" id="Brand-2" value="SAMSUNG" class="btn-check"> -->
+<!--                         <label for="Brand-2" class="btn btn-primary">SAMSUNG</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" name="phone" id="brand-3" value="IPHONE" class="btn-check"> -->
+<!--                         <label for="brand-3" class="btn btn-primary">IPHONE</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-check form-check-inline"> -->
+<!--                         <input type="checkbox" name="phone" id="Brand-4" value="REDMI" class="btn-check"> -->
+<!--                         <label for="Brand-4" class="btn btn-primary">REDMI</label> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 col-12 col-md-6"> -->
+<!--                     <div> -->
+<!--                         <label for="range" class="form-label">choose your price</label> -->
+<!--                         <input type="range" class="form-range" name="range" id="range" min="0" max="10" step="1"> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="btn-haye-groupi d-flex flex-wrap"> -->
+<!--                     <div class="col-12 col-md-6 mt-3 input-group"> -->
+<!--                         <label class="input-group-text">Username</label> -->
+<!--                         <input type="text" name="username" id="username" class="form-control" aria-label="username"> -->
+<!--                     </div> -->
+<!--                     <div class="input-group col-12 col-md-6 mt-3"> -->
+<!--                         <label class="input-group-text" for="email-group">name@gmail.com</label> -->
+<!--                         <input type="email" name="email" id="email-group" class="form-control"> -->
+<!--                     </div> -->
+<!--                     <div class="mt-3 col-12 col-md-6 input-group"> -->
+<!--                         <button type="button" class="btn btn-outline-success">Hayula</button> -->
+<!--                         <input type="text" name="name" id="" class="form-control"> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 row"> -->
+<!--                     <div class="form-floating col-12 col-md-6 mt-3"> -->
+<!--                         <input type="email" name="email" id="email-address" class="form-control" placeholder="name@gmail.com"> -->
+<!--                         <label for="email-address" class="form-label ps-4">Email</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-floating col-12 col-md-6 mt-3"> -->
+<!--                         <input type="text" name="username" id="user" class="form-control" placeholder="@......"> -->
+<!--                         <label for="user" class="form-label ps-4">username</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-floating col-12 col-md-6 mt-3"> -->
+<!--                         <input type="password" name="pass" id="pass" class="form-control" placeholder="*****"> -->
+<!--                         <label for="pass" class="form-label ps-4">password</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-floating col-12 col-md-6 mt-3"> -->
+<!--                         <input type="text" class="form-control" name="" id="father-name" placeholder="Father name"> -->
+<!--                         <label for="father-name" class="form-floating ps-4">Father name</label> -->
+<!--                     </div> -->
+<!--                     <div class="form-floating col-12 col-md-6 mt-3"> -->
+<!--                         <textarea name="comments" id="comment" cols="30" rows="10" class="form-control" placeholder="comment" style="height: 15vh;"></textarea> -->
+<!--                         <label for="comment" class="form-floating ps-4">Add a comment...</label> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="mt-3 row"> -->
+<!--                     <div class="col-12"> -->
+<!--                         <div class="input-group has-validation"> -->
+<!--                             <span class="input-group-text">@</span> -->
+<!--                             <div class="form-floating is-invalid"> -->
+<!--                                 <input type="text" class="form-control is-invalid" name="username" id="uname" placeholder="username" required> -->
+<!--                                 <label for="uname">user name</label> -->
+<!--                             </div> -->
+<!--                             <div class="invalid-feedback"> -->
+<!--                                 Please choose a username. -->
+<!--                             </div> -->
+<!--                         </div> -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--                 <div class="input-group has-validation"> -->
+<!--                     <span class="input-group-text">@</span> -->
+<!--                     <div class="form-floating is-invalid"> -->
+<!--                         <input type="text" class="form-control is-invalid" id="floatingInputGroup2" placeholder="Username" required> -->
+<!--                         <label for="floatingInputGroup2">Username</label> -->
+<!--                     </div> -->
+<!--                     <div class="invalid-feedback"> -->
+<!--                         Please choose a username. -->
+<!--                     </div> -->
+<!--                 </div> -->
+<!--             </fieldset> -->
+<!--         </form> -->
+        <form method="get" enctype="multipart/form-data" class="mt-3">
+            <fieldset>
+                <legend>Beautiful Form</legend>
+                <div class="row">
+                    <div class="col-4 mb-4">
+                        <label for="first-name" class="form-label">first name</label>
+                        <input type="text" class="form-control" name="first-name" id="first-name" required>
+                        <div class="valid-feedback">
+                            Looks Good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Try Again.
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <label for="last-name" class="form-label">last name</label>
+                        <input type="text" class="form-control" name="last-name" id="last-name" required>
+                        <div class="valid-feedback">
+                            Looks Good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Try Again.
+                        </div>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <label for="username" class="form-label">username</label>
+                        <div class="input-group">
+                            <span class="input-group-text">@</span>
+                            <input type="text" name="username" id="username" class="form-control" required>
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Try Again.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mb-4">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" name="city" id="city" class="form-control" required>
+                        <div class="valid-feedback">
+                            Looks Good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Try Again.
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4">
+                        <label for="state" class="form-label">State</label>
+                        <select name="select-state" id="state" class="form-select" required>
+                            <option hidden>choose</option>
+                            <option value="qom">qom</option>
+                            <option>...</option>
+                        </select>
+                        <div class="valid-feedback">
+                            Looks Good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Try Again.
+                        </div>
+                    </div>
+                    <div class="col-3 mb-4">
+                        <label for="upload" class="form-label">Zip</label>
+                        <input type="file" name="file" id="upload" class="form-control" required>
+                        <div class="valid-feedback">
+                            Looks Good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Please Try Again.
+                        </div>
+                    </div>
+                    <div class="col-12 mb-4">
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input" name="agree" id="agree" value="agree" required>
+                            <label for="agree" class="form-check-label">Agree to terms and conditions</label>
+                            <div class="valid-feedback">
+                                Looks Good!
+                            </div>
+                            <div class="invalid-feedback">
+                                Please Try Again.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Submit Form</button>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+        <div class="accordion mt-4" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item border mb-3">
+                <div class="accordion-header h2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Accordion Item #1
+                    </button>
+                </div>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                    <div class="accordion-body">
+                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Accordion Item #2
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item border mb-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Accordion Item #3
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="alert alert-danger" role="alert">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem est fugiat id, ipsum quis reprehenderit tempora tenetur voluptates? Ab ea eum facilis itaque nam nisi non perspiciatis praesentium suscipit.
+        </div>
+        <div class="alert alert-secondary">
+            Lorem ipsum dolor sit amet, <a href="#" class="alert-link">consectetur adipisicing elit</a>. Ad aspernatur at beatae dolores doloribus dolorum excepturi illum impedit laboriosam magnam magni, molestias non praesentium quaerat quisquam quos unde veniam vitae!
+        </div>
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem ea fugit nesciunt pariatur provident tenetur. Eaque modi numquam quod rerum! Consequatur eos eum illo perferendis perspiciatis quam quis? Corporis?</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+        </div>
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem ea fugit nesciunt pariatur provident tenetur. Eaque modi numquam quod rerum! Consequatur eos eum illo perferendis perspiciatis quam quis? Corporis?</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+        </div>
+        <h1>Lorem ipsum dolor sit amet.<span class="badge bg-secondary">hello</span></h1>
+        <div class="">
+            <button type="button" class="btn btn-primary">button<span class="badge bg-info mt-1">hello</span></button>
+        </div>
+        <div class="mt-5">
+            <button type="button" class="btn btn-primary position-relative">
+                Notification
+                <span class="badge bg-danger rounded-pill translate-middle position-absolute start-100 top-0 p-2">
+                    +99
+                    <span class="visually-hidden">unread messages</span>
+                </span>
+            </button>
+            <div class="mt-3">
+                <button type="button" class="btn btn-success position-relative">
+                    Profile
+                    <span class="badge bg-danger rounded-circle position-absolute translate-middle p-2 border border-light top-0 start-100">
+                        <span class="visually-hidden">alert</span>
+                    </span>
+                </button>
+            </div>
+        </div>
+        <hr>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Content</a></li>
+                <li class="breadcrumb-item active">Side</li>
+            </ol>
+        </nav>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">01</button>
+            <button type="button" class="btn btn-primary">02</button>
+            <button type="button" class="btn btn-primary">03</button>
+        </div>
+        <div class="btn-group" role="group">
+            <input type="checkbox" class="btn-check" name="check" id="btn-check-1">
+            <label for="btn-check-1" class="btn btn-outline-primary">Checkbox-1</label>
+            
+            <input type="checkbox" class="btn-check" name="check" id="btn-check-2">
+            <label for="btn-check-2" class="btn btn-outline-primary">checkbox-2</label>
+            
+            <input type="checkbox" class="btn-check" name="check" id="btn-check-3">
+            <label for="btn-check-3" class="btn btn-outline-primary">checkbox-3</label>
+        </div>
+        <div class="mt-4">
+            <div class="btn-toolbar" role="toolbar">
+                <div class="btn-group" role="group">
+                    <button type="button" class="btn btn-success">1</button>
+                    <button type="button" class="btn btn-success">2</button>
+                    <button type="button" class="btn btn-success">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="mt-4">
+            <div class="btn-toolbar" role="toolbar">
+                <div class="btn-group-vertical" role="group">
+                    <button type="button" class="btn btn-success">1</button>
+                    <button type="button" class="btn btn-success">2</button>
+                    <button type="button" class="btn btn-success">3</button>
+                </div>
+            </div>
+        </div>
+        <div class="btn-toolbar" role="toolbar">
+            <div class="btn-group-vertical" role="group">
+                <input type="checkbox" class="btn-check" name="aaa" id="vbtn-1">
+                <label for="vbtn-1" class="btn btn-outline-info">check-1</label>
+    
+                <input type="checkbox" class="btn-check" name="aaa" id="vbtn-2">
+                <label for="vbtn-2" class="btn btn-outline-info">check-2</label>
+    
+                <input type="checkbox" class="btn-check" name="aaa" id="vbtn-3">
+                <label for="vbtn-3" class="btn btn-outline-info">check-3</label>
+            </div>
+        </div>
+    </div>
+<!--     <div class="mt-5 container"> -->
+<!--         <table class=""> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" colspan="6" rowspan="2">Ali-1</td> -->
+<!--                 <td class="p-3 border" colspan="2">Ali-2</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-3</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-4</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Ali-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" colspan="2">mahan-1</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-2</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-3</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-4</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">mahan-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" rowspan="2" colspan="2">POCO-1</td> -->
+<!--                 <td class="p-3 border">POCO-2</td> -->
+<!--                 <td class="p-3 border" rowspan="2">POCO-3</td> -->
+<!--                 <td class="p-3 border" colspan="2" rowspan="2">POCO-4</td> -->
+<!--                 <td class="p-3 border" colspan="2">POCO-5</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">POCO-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">POCO-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">POCO-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border">Amin-1</td> -->
+<!--                 <td class="p-3 border">Amin-2</td> -->
+<!--                 <td class="p-3 border">Amin-3</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Amin-4</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Amin-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Amin-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Amin-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Amin-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" colspan="2">Mohammad-1</td> -->
+<!--                 <td class="p-3 border" colspan="2">Mohammad-2</td> -->
+<!--                 <td class="p-3 border" colspan="2">Mohammad-3</td> -->
+<!--                 <td class="p-3 border" colspan="2">Mohammad-4</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Mohammad-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Mohammad-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Mohammad-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Mohammad-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" colspan="2" rowspan="3">vahid-1</td> -->
+<!--                 <td class="p-3 border" colspan="2">vahid-2</td> -->
+<!--                 <td class="p-3 border" colspan="2">vahid-3</td> -->
+<!--                 <td class="p-3 border" colspan="2">vahid-4</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border" colspan="2" rowspan="2">Albert-1</td> -->
+<!--                 <td class="p-3 border" colspan="2">Albert-2</td> -->
+<!--                 <td class="p-3 border" colspan="2" rowspan="2">Albert-3</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border" colspan="2">Albert-4</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Albert-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Albert-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Albert-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">Albert-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--             <tr> -->
+<!--                 <td class="p-3 border">vahid-1</td> -->
+<!-- &lt;!&ndash;                 <td class="p-3 border" colspan="2">vahid-2</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border" colspan="3">vahid-3</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border" colspan="2">vahid-4</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-5</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-6</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-7</td> &ndash;&gt; -->
+<!-- &lt;!&ndash;                 <td class="p-3 border">vahid-8</td> &ndash;&gt; -->
+<!--             </tr> -->
+<!--         </table> -->
+<!--     </div> -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
